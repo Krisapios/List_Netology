@@ -10,9 +10,9 @@ public class Main {
         while (true) {
             System.out.println("Выберите операцию:");
             System.out.println("1. Добавить товар");
-            System.out.println("2. ");
-            System.out.println("");
-            System.out.println("");
+            System.out.println("2. Посмотреть список");
+            System.out.println("3. Удалить товар");
+            System.out.println("4. Поиск товаров");
             String input = scanner.nextLine();
             int operation = Integer.parseInt(input);
             switch (operation) {
